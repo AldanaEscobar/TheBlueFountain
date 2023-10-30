@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.backgruond {
+  background-color: #f1f3f4;
+}
+.fontColor {
+  color: white;
+}
+.icon {
+  width: 3rem;
+}
+.navBar {
+  background-color: #324c66;
+}
+.banner {
+  height: 35rem;
+  background-image: url("../assets/images/balcon.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.formContainer {
+  display: flex;
+  justify-content: center;
+}
+.form {
+  background-color: #50a1bd;
+  width: 90%;
+  height: 15rem;
+  align-self: center;
+  border-radius: 1rem;
+}
+.input {
+  height: 10rem;
+}
+.primaryButton {
+  background-color: #324c66;
+  border-color: #324c66;
+}
+.description {
+  margin: 2rem;
+  /* text-align: center; */
+  width: 90%;
+}
+.importantText {
+  font-weight: bold;
+  color: #324c66;
+}
+.imageCard {
+  /* height: 26rem; */
+}
+linkCard {
+    color: #324c66;
+}
