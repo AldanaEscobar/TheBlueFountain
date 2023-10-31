@@ -54,3 +54,36 @@
 linkCard {
     color: #324c66;
 }
+.footer {
+  background-color: #324c66; 
+  color: #fff; /* Color del texto en el footer */
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.footer-grid {
+  display: grid;
+    grid-template-columns: 1fr 1.25fr 1.25fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.footerBranch {
+  grid-column: span 1; 
+    grid-row: span 2;
+}
+.footerContact{
+  grid-column: 2;
+  grid-row: span 1;
+}
+.footerRRSS{
+  grid-column: 2 / span 2;
+  grid-row: 2;
+}
+.footerNav{
+  grid-column: 3;
+    grid-row: span 1; 
+}
+.logoImage{
+  border-radius: 1rem;
+}
+
