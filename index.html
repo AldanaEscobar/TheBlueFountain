@@ -79,49 +79,48 @@
     <div class="banner">
     </div>
     <!-- Form -->
-    <div class="formContainer">
-    <form class="row row-cols-lg-auto g-3 align-items-center justify-content-around form">
-<!-- Arrive Date -->
-      <div class="col-12">
-        <div class="input-group">
-          <div class="input-group-text"><i class="fa-regular fa-calendar"></i></div>
-          <input type="date" class="form-control input" id="inlineFormInputGroupUsername" placeholder="arrived date">
-        </div>
-      </div>
-<!-- Exit date -->
-      <div class="col-12">
+<div class="formContainer">
+  <form class="row row-cols-lg-auto g-3 align-items-center justify-content-around form">
+    <!-- Arrive Date -->
+    <div class="col-12">
       <div class="input-group">
         <div class="input-group-text"><i class="fa-regular fa-calendar"></i></div>
-        <input type="date" class="form-control input" id="inlineFormInputGroupUsername" placeholder="exit date">
+        <input type="date" class="form-control input" id="checkInDate" placeholder="arrived date">
+      </div>
+    </div>
+    <!-- Exit date -->
+    <div class="col-12">
+      <div class="input-group">
+        <div class="input-group-text"><i class="fa-regular fa-calendar"></i></div>
+        <input type="date" class="form-control input" id="checkOutDate" placeholder="exit date">
       </div>
     </div>
     <!-- Place -->
-      <div class="col-12">
-        <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
-        <select class="form-select input" id="inlineFormSelectPref">
-          <option selected>en donde?</option>
-          <option value="1">Baños de Agua Santa</option>
-          <option value="2">Rio Blanco</option>
-        </select>
-      </div>
-<!-- People -->
-      <div class="col-12">
-        <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
-        <select class="form-select input" id="inlineFormSelectPref">
-          <option selected>Cuantas personas?</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-        </select>
-      </div>
+    <div class="col-12">
+      <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+      <select class="form-select input" id="place">
+        <option selected>en donde?</option>
+        <option value="1">Baños de Agua Santa</option>
+        <option value="2">Rio Blanco</option>
+      </select>
+    </div>
+    <!-- People -->
+    <div class="col-12">
+      <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+      <select class="form-select input" id="people">
+        <option selected>Cuantas personas?</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+    </div>
     <!-- Button -->
-      <div class="col-12">
-        <button type="search" class="btn btn-primary primaryButton" href="./pages/serch.html">Buscar</button>
-      </div>
-      
-    </form>
-  </div>
+    <div class="col-12">
+      <button type="search" class="btn btn-primary primaryButton" href="./pages/serch.html">Buscar</button>
+    </div>
+  </form>
+</div>
     <!-- Apartment Description -->
     <section class="description">
       <p>
