@@ -86,4 +86,38 @@ linkCard {
 .logoImage{
   border-radius: 1rem;
 }
+.apartmentBackgruond{
+  background-color: #324c66;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.bannerImages {
+  display: grid;
+  grid-template-rows: 1fr 1fr; 
+  grid-template-columns: 0.5fr 0.7fr 0.7fr 0.7fr;
+  grid-gap: 1rem; 
+  width: 100%; 
+  justify-content: space-evenly;
+  justify-items: center;
+  padding-bottom: 2rem;
+}
+.principalImage {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.imagen1,
+.imagen2,
+.imagen3,
+.imagen4 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
 
+.bannerImages img {
+  border-radius: 0.2rem;
+  object-fit: cover; 
+}
+.apartmentDescription{
+  width: 50%;
+}
