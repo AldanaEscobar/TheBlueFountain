@@ -13,6 +13,9 @@
 }
 .navBar {
   background-color: #324c66;
+  position: sticky;
+  top:0;
+  z-index: 2;
 }
 .banner {
   height: 35rem;
@@ -48,8 +51,15 @@
   font-weight: bold;
   color: #324c66;
 }
-.imageCard {
-  /* height: 26rem; */
+.title {
+  color:#324c66;
+  font-size: 30px;
+  margin: 2rem;
+}
+.subTitle{
+  color:#324c66;
+  font-size: 25
+  px; 
 }
 linkCard {
     color: #324c66;
@@ -118,6 +128,37 @@ linkCard {
   border-radius: 0.2rem;
   object-fit: cover; 
 }
-.apartmentDescription{
-  width: 50%;
+.flexbox-container{
+  display: flex;
+  flex-direction: row;
+}
+.leftColumn{
+  width: 60%;
+  padding: 10px;
+}
+.rightColumn{
+  width: 40%;
+  padding: 10px;
+}
+.search{
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  height: 35rem;
+  position: sticky;
+  top:6rem;
+}
+.aparmentDescription{
+  padding: 1rem;
+}
+.map{
+  display: flex;
+  justify-content: center;
+}
+.iframe{
+  border-radius: 1rem;
+}
+.reviewCard{
+  width: 45%;
+  margin: 10px;
 }

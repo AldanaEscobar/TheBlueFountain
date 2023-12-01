@@ -1,49 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="../css/style.css" />
 
-    <title>Departamentos</title>
-  </head>
-  <body>
-    <div class="backgruond">
-  <!-- navBar -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <title>The Blue Fountain | Departamentos</title>
+</head>
+
+<body>
+  <div class="backgruond">
+    <!-- navBar -->
     <nav class="navbar navbar-expand-lg navBar">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
-          <img
-            src="../assets/icons/logo.png"
-            alt="Logo de la marca"
-            class="icon nav-link active"
-          />
+          <img src="../assets/icons/logo.png" alt="Logo de la marca" class="icon nav-link active" />
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link fontColor" aria-current="page" href="#"
-                >Reseñas</a
-              >
+              <a class="nav-link fontColor" aria-current="page" href="#">Reseñas</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fontColor" href="#">Actividades</a>
@@ -52,13 +37,8 @@
               <a class="nav-link fontColor" href="#">Contacto</a>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle fontColor"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
+              <a class="nav-link dropdown-toggle fontColor" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 Departamentos
               </a>
               <ul class="dropdown-menu">
@@ -74,6 +54,7 @@
       </div>
     </nav>
     <main>
+      <!-- Image Banner -->
       <section class="apartmentBackgruond">
         <div class="bannerImages">
           <div class="principalImage">
@@ -93,54 +74,144 @@
           </div>
         </div>
       </section>
-      <div class="apartmentDescription">
-        <p>
-          The Blue Fountain es una posada nueva y moderna con apartamentos completos que incluyen todos los servicios para que disfrutes de una estadía agradable.
-El espacio
-Está a poca distancia a pie de las atracciones y restaurantes del centro de Baños, pero estamos lo suficientemente lejos de la actividad como para proporcionar un refugio tranquilo a nuestros huéspedes. El vecindario inmediato cuenta con cafeterías, tiendas, restaurantes y todo lo que necesitas durante tu estadía. Las camas ortopédicas y las frescas sábanas le dan la bienvenida después de un día de aventura o de remojo en los baños termales cercanos. Para aquellos que prefieren hacer sus propias comidas, la cocina está completamente equipada para su placer de cocinar.
-Acceso de los huéspedes
-Cada uno de los cuatro apartamentos tiene 2 dormitorios y 2 baños completos, junto con la cocina de concepto abierto y el área de la sala. Perfecto para grupos pequeños o familias. Es posible alquilar más de una unidad para grupos más grandes. La entrada es a través de una puerta segura a través de un patio jardín. Los huéspedes tienen acceso a la terraza del quinto piso con vistas a la Cascada Cabellera de la Virgen y las montañas circundantes.
-        </p>
-
-      </div>
-      <div class="search">
-       <h3>25 USD por noche</h3>
-       
-      </div>
-
-</main>
-<footer class="footer">
-  <div class="footer-grid">
-      <div class="footerBranch">
+      <div class="flexbox-container">
+        <!-- Description -->
+        <div class="leftColumn">
+          <div class="apartmentDescription description">
+            <p>
+              <span class="importantText">The Blue Fountain </span> una posada nueva y moderna con apartamentos completos que incluyen todos los
+              servicios
+              para que disfrutes de una estadía agradable.
+              El espacio
+              Está a poca distancia a pie de las atracciones y restaurantes del centro de Baños, pero estamos lo
+              suficientemente lejos de la actividad como para proporcionar un refugio tranquilo a nuestros huéspedes. El
+              vecindario inmediato cuenta con cafeterías, tiendas, restaurantes y todo lo que necesitas durante tu
+              estadía. Las camas ortopédicas y las frescas sábanas le dan la bienvenida después de un día de aventura o
+              de
+              remojo en los baños termales cercanos. Para aquellos que prefieren hacer sus propias comidas, la cocina
+              está
+              completamente equipada para su placer de cocinar.
+              Acceso de los huéspedes
+              Cada uno de los cuatro apartamentos tiene 2 dormitorios y 2 baños completos, junto con la cocina de
+              concepto
+              abierto y el área de la sala. Perfecto para grupos pequeños o familias. Es posible alquilar más de una
+              unidad para grupos más grandes. La entrada es a través de una puerta segura a través de un patio jardín.
+              Los
+              huéspedes tienen acceso a la terraza del quinto piso con vistas a la Cascada Cabellera de la Virgen y las
+              montañas circundantes.
+            </p>
+          </div>
+          <!-- Map -->
+          <h3 class="title">Ubicación:</h3>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.633376789908!2d-78.42292772450888!3d-1.3964347592305242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d391a6ffd670e9%3A0xf20d29d313720b6b!2sThe%20BLUE%20FOUNTAIN!5e0!3m2!1ses-419!2sec!4v1701449510712!5m2!1ses-419!2sec"
+              width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <!-- Reviews -->
+          <h3 class="title">Lo que nuestros huéspedes opinan:</h3>
+          <div calss="reviews" style="display: flex" ;>
+        <!-- Review 1 -->
+        <div class="reviewCard card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../assets/images/users/Mariana.jpeg" class="img-fluid rounded m-2" alt="Imagen del huésped">
+            </div>
+              <div class="col-md-8 d-flex flex-column align-items-center justify-content-center">
+              <h5 class="card-title subTitle">Romina Martinez.</h5>
+            </div>
+              <div class="card-body">
+                <p class="card-text">La ubicación es excelente, muy cerca del centro y de la naturaleza. Aproveché mucho la zona
+                  de cowork. Volvería sin dudas.</p>
+              </div>
+            </div>
+          </div>
+        
+            <!-- Review2 -->
+            <div class="reviewCard card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../assets/images/users/Sebastian.jpeg" class="img-fluid rounded m-2" alt="Imagen del huésped">
+                </div>
+                  <div class="col-md-8 d-flex flex-column align-items-center justify-content-center">
+                  <h5 class="card-title subTitle">Sebastian Gallardo.</h5>
+                </div>
+                  <div class="card-body">
+                    <p class="card-text">Me quede por pocos días, pero lo disfruté muchisimo. Y es petfriendly!!.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <a href="">Ver mas reseñas</a>
+        </div>
+          <!-- Sticky Selector -->
+          <div class="rightColumn">
+            <div class="search shadow p-3 mb-5 bg-body-tertiary rounded">
+              <h3 class="mt-3 title">25 USD por noche</h3>
+              <select class="form-select mt-5 mb-5" aria-label="Huespedes">
+                <option selected>Cuantos huespedes?</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <div class="input-group mb-3">
+                <input type="date" class="form-control" placeholder="CheckIn Date" aria-label="check In">
+                <span class="input-group-text"></span>
+                <input type="date" class="form-control" placeholder="CheckOut Date" aria-label="Check Out">
+              </div>
+              <button type="search" class="btn btn-primary primaryButton" >Reservar</button>
+              <div class="resumen">
+                <h4 class="subTitle"> Detalle de la reserva:</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footerBranch">
           <img src="../assets/icons/isoLogo.png" class="logoImage">
-          <p><span>The Blue Fountain</span> ofreciendote el mejor alojamiento en <span>Baños de Agua Santa</span> desde el año 2020.</p>
-      </div>
-      <div class="footerContact">
-        <section>
-         <p>
-          12 de Noiembre y Luis A. Martinez, Baños de Agua Santa
-        </p>
-          <p>
-          Te.: +593 99 526 4615
-        </p>
-        <p>
-          thebluefontain@gmail.com
-         </p>
-         <p>
-          <a href="">Contactanos!</a>
-         </p>
-        </section>
-      </div>
-  <div class="footerNav">
-    <h4>Menú</h4>
-    <ul>
-      <a><li>Departamentos</li></a>
-      <a><li>Reseñas</li></a>
-      <a><li>Actividades</li></a>
-      <a><li>Contacto</li></a>
-    </ul>
-  </div>
-      <div class="footerRRSS">
+          <p><span>The Blue Fountain</span> ofreciendote el mejor alojamiento en <span>Baños de Agua Santa</span> desde
+            el año 2020.</p>
+        </div>
+        <div class="footerContact">
+          <section>
+            <p>
+              12 de Noiembre y Luis A. Martinez, Baños de Agua Santa
+            </p>
+            <p>
+              Te.: +593 99 526 4615
+            </p>
+            <p>
+              thebluefontain@gmail.com
+            </p>
+            <p>
+              <a href="">Contactanos!</a>
+            </p>
+          </section>
+        </div>
+        <div class="footerNav">
+          <h4>Menú</h4>
+          <ul>
+            <a>
+              <li>Departamentos</li>
+            </a>
+            <a>
+              <li>Reseñas</li>
+            </a>
+            <a>
+              <li>Actividades</li>
+            </a>
+            <a>
+              <li>Contacto</li>
+            </a>
+          </ul>
+        </div>
+        <div class="footerRRSS">
           <div>
             <h4>
               Encontranos en:
@@ -151,18 +222,18 @@ Cada uno de los cuatro apartamentos tiene 2 dormitorios y 2 baños completos, ju
             </p>
             <p>
               <i class="fa-brands fa-facebook-f"></i>
-              <a href="https://www.facebook.com/pablo.varela.904/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0">Facebook</a>
+              <a
+                href="https://www.facebook.com/pablo.varela.904/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0">Facebook</a>
             </p>
           </div>
+        </div>
       </div>
+    </footer>
   </div>
-</footer>
-</div>
-</div>
-<script
-src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-crossorigin="anonymous"
-></script>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
