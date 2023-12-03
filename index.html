@@ -16,7 +16,7 @@
 <body>
   <div class="backgruond">
     <!-- navBar -->
-    <nav class="navbar navbar-expand-lg navBar">
+    <nav class="navbar navbar-expand-lg navBar padding principalFont">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">
           <img src="./assets/icons/logo.png" alt="Logo de la marca" class="icon nav-link active" />
@@ -41,21 +41,21 @@
                 aria-expanded="false">
                 Departamentos
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="./pages/apartment.html">Primer Piso</a></li>
-                <li><a class="dropdown-item" href="./pages/apartment.html">Segundo Piso</a></li>
-                <li><a class="dropdown-item" href="./pages/apartment.html">Tercer Piso</a></li>
-                <li><a class="dropdown-item" href="./pages/apartment.html">Cuarto Piso</a></li>
-                <li><a class="dropdown-item" href="./pages/apartment.html">Finca de Rio Blanco</a></li>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item principalFont" href="./pages/apartment.html">Primer Piso</a></li>
+                <li><a class="dropdown-item principalFont" href="./pages/apartment.html">Segundo Piso</a></li>
+                <li><a class="dropdown-item principalFont" href="./pages/apartment.html">Tercer Piso</a></li>
+                <li><a class="dropdown-item principalFont" href="./pages/apartment.html">Cuarto Piso</a></li>
+                <li><a class="dropdown-item principalFont" href="./pages/apartment.html">Finca de Rio Blanco</a></li>
               </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <main>
+    <main class="ms-5 me-5">
       <!-- Banner -->
-      <div class="banner">
+      <div class="banner rounded">
       </div>
       <!-- Form -->
       <div class="formContainer">
@@ -63,7 +63,7 @@
           <!-- Arrive Date -->
           <div class="col-12">
             <div class="input-group">
-              <div class="input-group-text"><i class="fa-regular fa-calendar"></i></div>
+              <div class="input-group-text principalFont"><i class="fa-regular fa-calendar"></i></div>
               <input type="date" class="form-control input" id="inlineFormInputGroupUsername"
                 placeholder="arrived date">
             </div>
@@ -78,14 +78,14 @@
           <!-- Place -->
           <div class="col-12">
             <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
-            <select class="form-select input" id="inlineFormSelectPref">
-              <option selected>en donde?</option>
-              <option value="1">Baños de Agua Santa</option>
-              <option value="2">Rio Blanco</option>
+            <select class="form-select input principalFont" id="inlineFormSelectPref">
+              <option selected class="principalFont">en donde?</option>
+              <option class="principalFont" value="1">Baños de Agua Santa</option>
+              <option class="principalFont" value="2">Rio Blanco</option>
             </select>
           </div>
           <!-- People -->
-          <div class="col-12">
+          <div class="col-12 principalFont">
             <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
             <select class="form-select input" id="inlineFormSelectPref">
               <option selected>Cuantas personas?</option>
@@ -98,7 +98,7 @@
           </div>
           <!-- Button -->
           <div class="col-12">
-            <button type="search" class="btn btn-primary primaryButton" href="./pages/serch.html">Buscar</button>
+            <button type="search" class="btn btn-primary primaryButton principalFont" href="./pages/serch.html">Buscar</button>
           </div>
 
         </form>
@@ -106,7 +106,7 @@
       <!-- Apartment Description -->
       <section class="description">
         <p>
-          <span class="importantText">The Blue Fountain </span>es una posada nueva y moderna con apartamentos completos
+          <span class="importantText textFont">The Blue Fountain </span>es una posada nueva y moderna con apartamentos completos
           que incluyen todos los servicios para que disfrutes de una estadía agradable.<br>
           Está a poca distancia a pie de las atracciones y restaurantes del centro de Baños, pero estamos lo
           suficientemente lejos de la actividad como para proporcionar un refugio tranquilo a nuestros huéspedes.
@@ -119,54 +119,56 @@
 
       <!-- Apartment Cards -->
       <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-around">
-        <div class="col">
-          <div class="card h-100">
-            <img src="./assets/images/Piso4.png" class="card-img-top imageCard" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Departamento 3er Piso</h5>
-              <p class="card-text">This is a short card.</p>
+        <div class="col col-md-3">
+          <div class="card h-100 border-0 bg-transparent">
+            <img src="./assets/images/Piso4.png" class="card-img-top imageCard rounded" alt="...">
+            <div class="card-body" style="padding-right: 3px; padding-left: 03px;">
+              <h5 class="card-title titleCard">Departamento completo 4er Piso</h5>
+              <p class="card-text textFont">Baños de Agua Santa, Ecuador</p>
+              <p class="precio textFont"> 25 USD la noche</p>
               <a href="./pages/apartment.html" class="card-link linkCard">Ver más</a>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./assets/images/Piso2.png" class="card-img-top imageCard" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Departamento 3er Piso</h5>
-              <p class="card-text">This is a short card.</p>
+        <div class="col col-md-3">
+          <div class="card h-100 border-0 bg-transparent">
+            <img src="./assets/images/Piso2.png" class="card-img-top imageCard rounded" alt="...">
+            <div class="card-body"style="padding-right: 3px; padding-left: 03px;">
+              <h5 class="card-title titleCard">Departamento completo 3er Piso</h5>
+              <p class="card-text textFont">Baños de Agua Santa, Ecuador</p>
+              <p class="precio"> 25 USD la noche</p>
               <a href="./pages/apartment.html" class="card-link linkCard">Ver más</a>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./assets/images/Piso1.png" class="card-img-top imageCard" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Departamento 1er Piso</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content.</p>
+        <div class="col col-md-3">
+          <div class="card h-100 border-0 bg-transparent">
+            <img src="./assets/images/Piso1.png" class="card-img-top imageCard rounded" alt="...">
+            <div class="card-body" style="padding-right: 3px; padding-left: 03px;">
+              <h5 class="card-title titleCard">Departamento completo 1er Piso</h5>
+              <p class="card-text textFont">Baños de Agua Santa, Ecuador</p>
+              <p class="precio"> 25 USD la noche</p>
               <a href="./pages/apartment.html" class="linkCard">Ver más</a>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./assets/images/Piso1.png" class="card-img-top imageCard" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Departamento 1er Piso</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content.</p>
+        <div class="col col-md-3">
+          <div class="card h-100 border-0 bg-transparent">
+            <img src="./assets/images/FincaRB.png" class="card-img-top imageCard rounded" alt="...">
+            <div class="card-body"style="padding-right: 3px; padding-left: 03px;">
+              <h5 class="card-title titleCard">Finca en Rio Blanco, Ecuador</h5>
+              <p class="card-text textFont">Habiación independiente en casa compartida.</p>
+              <p class="precio"> 30 USD la noche</p>
               <a href="./pages/apartment.html" class="linkCard">Ver más</a>
             </div>
           </div>
         </div>
       </div>
-
+          
       <!-- The Place -->
 
     </main>
-    <footer class="footer">
+    <footer class="footer pe-5 ps-5">
       <div class="footer-grid">
         <div class="footerBranch">
           <img src="./assets/icons/isoLogo.png" class="logoImage">

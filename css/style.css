@@ -1,9 +1,16 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
 }
-.backgruond {
-  background-color: #f1f3f4;
+.principalFont{
+  font-family: Helvetica, sans-serif;
+}
+.textFont{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.padding{
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .fontColor {
   color: white;
@@ -53,16 +60,25 @@
 }
 .title {
   color:#324c66;
-  font-size: 30px;
+  font-size: 25px;
   margin: 2rem;
+  font-family: Helvetica, sans-serif;
+}
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .subTitle{
   color:#324c66;
-  font-size: 25
-  px; 
+  font-size: 20px; 
 }
-linkCard {
+.titleCard{
+  font-size: 20px;
+  color: #324c66;
+  font-weight: 350px;
+}
+.linkCard {
     color: #324c66;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .footer {
   background-color: #324c66; 
@@ -161,4 +177,8 @@ linkCard {
 .reviewCard{
   width: 45%;
   margin: 10px;
+}
+.precio{
+  font-weight: bold;
+  color: #324c66;
 }
