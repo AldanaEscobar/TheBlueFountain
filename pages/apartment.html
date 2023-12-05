@@ -19,7 +19,7 @@
     <nav class="navbar navbar-expand-lg navBar">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
-          <img src="../assets/icons/logo.png" alt="Logo de la marca" class="icon nav-link active" />
+          <img src="../assets/icons/logo.png" alt="Logo de la marca" class="logo nav-link active" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,9 +55,10 @@
     </nav>
     <main>
       <!-- Image Banner -->
-      <section>
-        <h3>Hermoso apartamento 4to piso con una vista increible!</h3>
-      </section>
+      <section class="apartmentSection">
+        <div class="apartmentTitleContainer">
+          <h3 class="apartmentTitle">Hermoso apartamento 4to piso con una vista increíble!</h3>
+        </div>
       <section class="apartmentBackgruond">
         <div class="bannerImages">
           <div class="principalImage">
@@ -77,11 +78,15 @@
           </div>
         </div>
       </section>
-      <div>
-        <h4> Departamento entero, Baños de Agua Santa, Ecuador.</h4>
+      <div class="apartmentButton">
+      <a class="button" href="">Ver mas fotos</a>
+    </div>
+    </section>
+      <div class="bannerSubTitle">
+        <h4 class="title m-0 mt-1 mb-1"> Departamento entero, Baños de Agua Santa, Ecuador.</h4>
         <p> Para 4 huéspedes | 2 dormitorios | 2 camas matrimoniales | 2 baños | Sala de co-work compartida</p>
-        <p> <i class="fa-solid fa-star"></i> 4.8 | <a href="">10 evaluaciones</a></p>
-        
+        <p class="mb-0"> <i class="fa-solid fa-star icon"></i> 4.8 | <a href="">10 evaluaciones</a></p>
+
       </div>
       <div class="flexbox-container">
         <!-- Description -->
@@ -119,8 +124,11 @@
               referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <!-- Reviews -->
-          <h3 class="title">Lo que nuestros huéspedes opinan:</h3>
-          <div calss="reviews" style="display: flex" ;>
+          <div class="titleContainer">
+          <h3 class="title mb-0">Lo que nuestros huéspedes opinan:</h3>
+          <p class="mb-0"> <i class="fa-solid fa-star icon"></i> 4.8 | <a href="">10 evaluaciones</a></p>
+        </div>
+          <div calss="reviews" style="display: flex;justify-content: space-evenly";>
         <!-- Review 1 -->
         <div class="reviewCard card mb-3" style="max-width: 540px;">
           <div class="row g-0">
@@ -136,7 +144,6 @@
               </div>
             </div>
           </div>
-        
             <!-- Review2 -->
             <div class="reviewCard card mb-3" style="max-width: 540px;">
               <div class="row g-0">
@@ -152,7 +159,7 @@
                 </div>
               </div>
           </div>
-          <a href="">Ver mas reseñas</a>
+          <a class="linkButton" href="">Ver mas reseñas</a>
         </div>
           <!-- Sticky Selector -->
           <div class="rightColumn">

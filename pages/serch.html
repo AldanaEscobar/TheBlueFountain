@@ -16,65 +16,140 @@
     <title>The Blue Fountain | Los resultados de tu busqueda</title>
   </head>
   <body>
-    <div class="backgruond">
-  <!-- navBar -->
-    <nav class="navbar navbar-expand-lg navBar">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">
-          <img
-            src="./assets/icons/logo.png"
-            alt="Logo de la marca"
-            class="icon nav-link active"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link fontColor" aria-current="page" href="#"
-                >Reseñas</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fontColor" href="#">Actividades</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fontColor" href="#">Contacto</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle fontColor"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Departamentos
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="../pages//apartment.html">Primer Piso</a></li>
-                <li><a class="dropdown-item" href="../pages//apartment.html">Segundo Piso</a></li>
-                <li><a class="dropdown-item" href="../pages//apartment.html">Tercer Piso</a></li>
-                <li><a class="dropdown-item" href="../pages//apartment.html">Cuarto Piso</a></li>
-                <li><a class="dropdown-item" href="../pages//apartment.html">Finca de Rio Blanco/a></li>
+      <div class="backgruond">
+        <!-- navBar -->
+        <nav class="navbar navbar-expand-lg navBar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../assets/icons/logo.png" alt="Logo de la marca" class="logo nav-link active" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link fontColor" aria-current="page" href="#">Reseñas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fontColor" href="#">Actividades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fontColor" href="#">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle fontColor" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Departamentos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../pages/apartment.html">Primer Piso</a></li>
+                    <li><a class="dropdown-item" href="../pages/apartment.html">Segundo Piso</a></li>
+                    <li><a class="dropdown-item" href="../pages/apartment.html">Tercer Piso</a></li>
+                    <li><a class="dropdown-item" href="../pages/apartment.html">Cuarto Piso</a></li>
+                    <li><a class="dropdown-item" href="../pages/apartment.html">Finca de Rio Blanco</a></li>
+                  </ul>
+                </li>
               </ul>
-            </li>
-          </ul>
+            </div>
+          </div>
+        </nav>
+    <main>
+    <!-- Apartment Cards -->
+    <div class="titleContainer">
+    <h4> Los resultados de su busqueda: </h4>
+    <p> Departamentos en Baños de Agua Santa para 4 personas:</p>
+  </div>
+  <div class="searchResults container">
+    <div class="row">
+      <!-- Columna izquierda con resultsContainer -->
+      <div class="col-md-6">
+        <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-around">
+          <!-- Tarjeta 1 -->
+          <div class="col">
+            <div class="card h-100 border-0 bg-transparent">
+              <img src="../assets/images/Piso4.png" class="card-img-top imageCard rounded" alt="...">
+              <div class="card-body" style="padding-right: 3px; padding-left: 03px;">
+                <h5 class="card-title titleCard">Departamento completo 4er Piso</h5>
+                <p class="card-text textFont">Baños de Agua Santa, Ecuador</p>
+                <p class="precio textFont"> 25 USD la noche</p>
+                <a href="../pages/apartment.html" class="card-link linkCard">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <!-- Tarjeta 2 -->
+          <div class="col">
+            <div class="card h-100 border-0 bg-transparent">
+              <img src="../assets/images/Piso2.png" class="card-img-top imageCard rounded" alt="...">
+              <div class="card-body" style="padding-right: 3px; padding-left: 03px;">
+                <h5 class="card-title titleCard">Departamento completo 3er Piso</h5>
+                <p class="card-text textFont">Baños de Agua Santa, Ecuador</p>
+                <p class="precio"> 25 USD la noche</p>
+                <a href="../pages/apartment.html" class="card-link linkCard">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <!-- Tarjeta 3 -->
+          <div class="col">
+            <div class="card h-100 border-0 bg-transparent">
+              <img src="../assets/images/Piso1.png" class="card-img-top imageCard rounded" alt="...">
+              <div class="card-body" style="padding-right: 3px; padding-left: 03px;">
+                <h5 class="card-title titleCard">Departamento completo 1er Piso</h5>
+                <p class="card-text textFont">Baños de Agua Santa, Ecuador</p>
+                <p class="precio"> 25 USD la noche</p>
+                <a href="../pages/apartment.html" class="linkCard">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <!-- Tarjeta 4 -->
+          <div class="col">
+            <div class="card h-100 border-0 bg-transparent">
+              <img src="../assets/images/FincaRB.png" class="card-img-top imageCard rounded" alt="...">
+              <div class="card-body" style="padding-right: 3px; padding-left: 03px;">
+                <h5 class="card-title titleCard">Finca en Rio Blanco, Ecuador</h5>
+                <p class="card-text textFont">Habitación independiente en casa compartida.</p>
+                <p class="precio"> 30 USD la noche</p>
+                <a href="../pages/apartment.html" class="linkCard">Ver más</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-    <main>
-    
+  
+      <!-- Columna derecha con el mapa -->
+      <div class="col-md-6 mapContainer">
+        <h3 class="title">Ubicación:</h3>
+        <div class="map">
+       <iframe
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.633376789908!2d-78.42292772450888!3d-1.3964347592305242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d391a6ffd670e9%3A0xf20d29d313720b6b!2sThe%20BLUE%20FOUNTAIN!5e0!3m2!1ses-419!2sec!4v1701449510712!5m2!1ses-419!2sec"
+         width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+         referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
+  </div>
+  <!-- To Do -->
+  <div id="carouselExampleInterval carousel" class="carousel slide" data-bs-ride="carousel">
+   <h4>Ver actividades en Baños de Agua Santa:</h4>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../assets/images/activities1.png" class="d-block w-100 carruselImages" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../assets/images/activities2.png" class="d-block w-100 carruselImages" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src=".../assets/images/activities3.png" class="d-block w-100 carruselImages" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
     </main>
     <footer class="footer">
       <div class="footer-grid">
